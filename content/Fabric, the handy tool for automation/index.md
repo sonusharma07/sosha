@@ -42,7 +42,7 @@ print(result)
 
 result.return_code , can be 0, 1, 2 which are standard console return codes.
 
-__COPY files from local terminal to remote terminal.__
+__COPY files from local terminal to remote server.__
 
 ```
 from fabric import Connection, transfer
@@ -53,7 +53,7 @@ localfile  = '/root/filename.txt'
 remotepath = '/root'
 con.put(localfile ,remote)
 ```
-__Editing the files on the remote terminal.__
+__Editing the files on the remote server.__
 
 lets say we have to edit a file which is at remote server.
 
@@ -79,11 +79,13 @@ remotefile = file.stdout.strip().split('\n')
 editedremotefile = ' '.join(remotefile)
 con.run('echo "{}" > /root/remotefile.txt'.format(editedremotefile), warn=True)
 ```
-Many othre interesting things can be done using Fabric library,  this is just the random use cases shown in this blog.
+Many other interesting things can be done using Fabric library,  this is just the few use cases shown in this blog.
 
 __Reference :__
 
-[Fabric documentation](http://www.fabfile.org/)
+[Fabric documentation](http://www.fabfile.org/) 😑
+
+
 
 
 
