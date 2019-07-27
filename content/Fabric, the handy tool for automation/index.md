@@ -26,7 +26,8 @@ It is build on **[Invoke](https://www.pyinvoke.org/ "Invoke is a Python (2.7 and
 lets install Fabric using __pip__
 `pip install fabric`
 
-__SSH into a remote terminal and execute certain commands.__        ## :sunglasses:  
+__SSH into a remote terminal and execute certain commands.__
+
 ```
 from fabric import Connection
 host = 'servername.domain.net'
@@ -82,7 +83,7 @@ Many othre interesting things can be done using Fabric library,  this is just th
 
 __Reference :__
 
-[Fabric documentation](http://www.fabfile.org/) ##:wink:
+[Fabric documentation](http://www.fabfile.org/)
 
 
 
