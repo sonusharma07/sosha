@@ -9,7 +9,7 @@ keywords: ["DevOps","Automation", "python"]
 published: true
 ---
 # Fabric, the handy tool for automation
-During atomation many time we come across use cases such as 
+During automation many time we come across use cases such as 
 
   * SSH into a remote terminal and execute certain commands.
   * COPY files from local terminal to remote terminal.
